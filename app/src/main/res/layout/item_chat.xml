@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:orientation="horizontal"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="8dp">
+
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_avatar_placeholder"
+        android:layout_marginEnd="12dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesan terakhir..."
+            android:textSize="13sp"
+            android:textColor="#777777" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14:20"
+            android:textSize="12sp"
+            android:textColor="#4CAF50" />
+
+        <TextView
+            android:id="@+id/tvBadge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="2"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:background="@drawable/bg_circle_green"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+</LinearLayout>

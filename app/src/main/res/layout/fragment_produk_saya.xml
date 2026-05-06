@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_box_empty"
+        android:fillColor="@android:color/white"
+        android:contentDescription="No listings"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="No active listings"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A1A"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ready to declutter? Start selling your eco-friendly items today."
+        android:textSize="13sp"
+        android:textColor="#888888"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.4"/>
+
+    <Button
+        android:id="@+id/btnListProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:text="List a Product"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:background="@drawable/bg_button_green"/>
+
+</LinearLayout>

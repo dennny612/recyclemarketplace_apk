@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Recyle Marketplace</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_transform">Transform</string>
+    <string name="menu_reflow">Reflow</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="fab_content_description">Represents a view to invoke an action</string>
+    <string name="image_view_item_transform_content_description">Represents an image view in the
+        item
+    </string>
+
+    <!-- Admin Dashboard -->
+    <string name="admin_dashboard_title">Recycle Marketplace Dashboard</string>
+    <string name="admin_label">Admin</string>
+    <string name="total_revenue">TOTAL REVENUE</string>
+    <string name="total_orders">TOTAL ORDERS</string>
+    <string name="menu_administrator">Menu Administrator</string>
+    <string name="manage_orders">Kelola Pesanan</string>
+    <string name="view_all_orders">Lihat semua pesanan</string>
+    <string name="add_product">Tambah Produk</string>
+    <string name="add_edit_product">Tambah/edit produk</string>
+    <string name="reports">Laporan</string>
+    <string name="sales_stats">Statistik penjualan</string>
+    <string name="logout">Logout</string>
+    <string name="exit_app">Keluar aplikasi</string>
+    <string name="initial_revenue">Rp 0</string>
+    <string name="initial_count">0</string>
+</resources>

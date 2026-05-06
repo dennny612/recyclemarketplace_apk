@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="#FFFFFF"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <!-- CHECKBOX -->
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- GAMBAR PRODUK -->
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg_image_round"
+        android:src="@drawable/img_placeholder"/>
+
+    <!-- INFO PRODUK -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Produk"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 0"
+            android:textColor="#4CAF50"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <!-- QTY CONTROL -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- MINUS -->
+        <ImageButton
+            android:id="@+id/btnMinus"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_minus"
+            android:background="@drawable/bg_circle_button"
+            app:tint="#000000"/>
+
+        <!-- QTY -->
+        <TextView
+            android:id="@+id/tvQty"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- PLUS -->
+        <ImageButton
+            android:id="@+id/btnPlus"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@android:drawable/ic_input_add"
+            android:background="@drawable/bg_circle_button"
+            app:tint="#4CAF50"/>
+    </LinearLayout>
+
+</LinearLayout>

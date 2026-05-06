@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- HEADER -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="12dp">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_back"
+                android:contentDescription="Back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informasi Pribadi"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginStart="16dp"/>
+        </LinearLayout>
+
+        <!-- MAP -->
+        <ImageView
+            android:id="@+id/imgMap"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/map_placeholder"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- BUTTON MAP -->
+        <Button
+            android:id="@+id/btnOpenMap"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Buka di Google Maps"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- FORM -->
+        <EditText
+            android:id="@+id/etNama"
+            android:hint="Nama"
+            android:textColorHint="#888888"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:textColor="#000000"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:hint="No Handphone"
+            android:inputType="phone"
+            android:textColorHint="#888888"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:textColor="#000000"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etProvinsi"
+            android:hint="Provinsi"
+            android:textColorHint="#888888"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:textColor="#000000"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etKota"
+            android:hint="Kabupaten/Kota"
+            android:textColorHint="#888888"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:textColor="#000000"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etKodePos"
+            android:hint="Kode Pos"
+            android:inputType="number"
+            android:textColorHint="#888888"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:textColor="#000000"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etAlamat"
+            android:hint="Alamat Lengkap"
+            android:textColorHint="#888888"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:background="@drawable/bg_input"
+            android:textColor="#000000"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- BUTTON SAVE -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Simpan"
+            android:textColor="#FFFFFF"
+
+            android:backgroundTint="#2E7D32"/>
+
+    </LinearLayout>
+
+</ScrollView>

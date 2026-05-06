@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recyclemarketplace">
+
+    <!-- 🌐 PERMISSION -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/recycle"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RecycleMarketplace">
+
+        <!-- 🔥 SPLASH (LAUNCHER) -->
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 👋 WELCOME -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+
+        <!-- 🏠 HOME -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+        <!-- 🔐 AUTH -->
+        <activity android:name=".LoginActivity" android:exported="false" />
+        <activity android:name=".RegisterActivity" android:exported="false" />
+        <activity android:name=".ResetPasswordActivity" android:exported="false" />
+
+        <!-- 👤 PROFILE -->
+        <activity android:name=".ProfileActivity" android:exported="false" />
+
+        <!-- 📍 INFORMASI PRIBADI -->
+        <activity android:name=".InformasiPribadiActivity" android:exported="false" />
+
+        <!-- ⚙️ SETTINGS -->
+        <activity android:name=".SettingsActivity" android:exported="false" />
+
+        <!-- 🛒 MARKET -->
+        <activity android:name=".MarketPlaceActivity" android:exported="false" />
+        <activity android:name=".DetailProductActivity" android:exported="false" />
+
+        <!-- 💬 CHAT -->
+        <activity android:name=".ChatActivity" android:exported="false" />
+
+        <!-- 🛍️ CART & CHECKOUT -->
+        <activity android:name=".CartActivity" android:exported="false" />
+        <activity android:name=".CheckoutActivity" android:exported="false" />
+
+        <!-- 📦 ORDER -->
+        <activity android:name=".OrderSuccessActivity" android:exported="false" />
+        <activity android:name=".OrderDetailActivity" android:exported="false" />
+
+        <!-- 🔥 ADMIN DASHBOARD (WAJIB TAMBAH) -->
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+
+        <activity android:name=".AdminReportActivity" />
+        <activity android:name=".AddProductActivity" />
+        <activity android:name=".AdminOrdersActivity" />
+        <activity android:name=".ReviewActivity" />
+
+    </application>
+
+</manifest>

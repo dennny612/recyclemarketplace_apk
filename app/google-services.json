@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "49486114023",
+    "firebase_url": "https://recycle-marketplace-7c389-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "recycle-marketplace-7c389",
+    "storage_bucket": "recycle-marketplace-7c389.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49486114023:android:66e0d78bb747180cb4c642",
+        "android_client_info": {
+          "package_name": "com.example.recyclemarketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49486114023-s6ullbumgtf0upghctkjrucqbrqftf0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recyclemarketplace",
+            "certificate_hash": "1b57e8595ec6bb3b98253fa278f105e29be045a2"
+          }
+        },
+        {
+          "client_id": "49486114023-clcdlkb796n0a6231bqiftfcp6getchc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKj1Ym7acVao_ffUI2Dg9g7WZdV-nuqeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49486114023-clcdlkb796n0a6231bqiftfcp6getchc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

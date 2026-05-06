@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laporan Performa"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ikhtisar data operasional dan pertumbuhan"
+            android:textColor="#777777"
+            android:textSize="12sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- TOTAL -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card"
+                android:padding="12dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL PENJUALAN"
+                    android:textSize="12sp"
+                    android:textColor="#777777"/>
+
+                <TextView
+                    android:id="@+id/txtTotalSales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 0"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <!-- PROFIT -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_card"
+                android:padding="12dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KEUNTUNGAN"
+                    android:textSize="12sp"
+                    android:textColor="#777777"/>
+
+                <TextView
+                    android:id="@+id/txtProfit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 0"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- CHART TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pertumbuhan Pendapatan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <!-- CHART -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_card">
+
+            <!-- BAR -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:layout_margin="4dp">
+
+                <View
+                    android:id="@+id/barJan"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#4CAF50"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jan"
+                    android:gravity="center"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <!-- BAR -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:layout_margin="4dp">
+
+                <View
+                    android:id="@+id/barFeb"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="#4CAF50"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Feb"
+                    android:gravity="center"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <!-- BAR -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:layout_margin="4dp">
+
+                <View
+                    android:id="@+id/barMar"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="#4CAF50"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mar"
+                    android:gravity="center"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <!-- BAR -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:layout_margin="4dp">
+
+                <View
+                    android:id="@+id/barApr"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#4CAF50"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apr"
+                    android:gravity="center"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
